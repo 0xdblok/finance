@@ -23,11 +23,11 @@ export default function Hero() {
           </a>
         </div>
       </div>
-      <p className=" text-white pt-6  text-2xl pl-4">Snapp Finance</p>
+      <p className=" text-white pt-6 text-center  text-2xl ">Snapp Finance</p>
       <div className="text-white pt-10 flex  justify-center">
         <Image className="" src={mint} alt="hero" width={140} height={140} />
       </div>{" "}
-      <p className="px-4  text-[8px]  text-xs">
+      <p className="text-center  text-[8px]  text-xs">
         Empowering ZK ecosystem by providing liquidity on starting up projects
       </p>
       <div className="flex  pt-10 justify-center">
