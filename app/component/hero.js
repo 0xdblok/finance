@@ -7,8 +7,8 @@ import mint from "../asset/mint.png";
 
 export default function Hero() {
   return (
-    <div className="text-white ">
-      <div className="  justify-center">
+    <div className="text-white pb-4">
+      <div className=" flex justify-center">
         <Image
           className="px-20"
           src={hero}
@@ -16,12 +16,12 @@ export default function Hero() {
           width={450}
           height={450}
         />
-        <div className=" flex justify-center">
-          <a href="">
-            {" "}
-            <Image className="" src={x} alt="hero" width={17} height={17} />
-          </a>
-        </div>
+      </div>
+      <div className=" flex justify-center">
+        <a href="https://x.com/snappfinance/">
+          {" "}
+          <Image className="" src={x} alt="hero" width={17} height={17} />
+        </a>
       </div>
       <p className=" text-white pt-6 text-center  text-2xl ">Snapp Finance</p>
       <div className="text-white pt-10 flex  justify-center">
