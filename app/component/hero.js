@@ -25,7 +25,7 @@ export default function Hero() {
       </div>
       <p className=" text-white pt-6  text-2xl pl-4">Snapp Finance</p>
       <div className="text-white pt-10 flex  justify-center">
-        <Image className="" src={mint} alt="hero" width={100} height={100} />
+        <Image className="" src={mint} alt="hero" width={140} height={140} />
       </div>{" "}
       <p className="px-4  text-[8px]  text-xs">
         Empowering ZK ecosystem by providing liquidity on starting up projects
@@ -35,16 +35,16 @@ export default function Hero() {
           className=" "
           src={matter}
           alt="comunity"
-          width={120}
-          height={120}
+          width={180}
+          height={180}
         />{" "}
       </div>{" "}
       <p className="  flex justify-center text-[8px]">
         Nothing matters more than community
       </p>
-      <div className=" flex justify-center">
+      <div className="pt-2 flex justify-center">
         {" "}
-        <Image src={zig} alt="comunity" width={120} height={120} />{" "}
+        <Image src={zig} alt="comunity" width={180} height={180} />{" "}
       </div>
     </div>
   );
