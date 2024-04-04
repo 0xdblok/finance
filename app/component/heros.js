@@ -4,7 +4,7 @@ import x from "../asset/x.png";
 import matter from "../asset/matter.png";
 import zig from "../asset/zig.png";
 import mint from "../asset/mint.png";
-
+import matters from "../asset/matters.png";
 export default function Heros() {
   return (
     <div className="flex  pt-10 xl:px-32 px-10 h-screen ">
@@ -34,17 +34,18 @@ export default function Heros() {
           </p>
         </div>{" "}
         <div className="flex pt-12 justify-center items-center gap-6">
-          <div className="pl-12 pt-14">
+          <div className="pl-12  ">
             <Image
               className=""
-              src={matter}
+              src={matters}
               alt="matter"
-              width={240}
-              height={240}
+              width={350}
+              height={350}
             />
-            <p className="pl-6">Nothing matters more than community</p>
           </div>
-          <Image className="" src={zig} alt="zig" width={240} height={240} />
+          <div>
+            <Image className="" src={zig} alt="zig" width={350} height={350} />
+          </div>
         </div>
       </div>
     </div>

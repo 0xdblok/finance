@@ -4,7 +4,7 @@ import x from "../asset/x.png";
 import matter from "../asset/matter.png";
 import zig from "../asset/zig.png";
 import mint from "../asset/mint.png";
-
+import matters from "../asset/matters.png";
 export default function Hero() {
   return (
     <div className="text-white pb-4">
@@ -33,15 +33,12 @@ export default function Hero() {
       <div className="flex  pt-10 justify-center">
         <Image
           className=" "
-          src={matter}
+          src={matters}
           alt="comunity"
           width={180}
           height={180}
         />{" "}
       </div>{" "}
-      <p className="  flex justify-center text-[8px]">
-        Nothing matters more than community
-      </p>
       <div className="pt-2 flex justify-center">
         {" "}
         <Image src={zig} alt="comunity" width={180} height={180} />{" "}

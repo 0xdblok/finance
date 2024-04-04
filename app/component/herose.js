@@ -5,6 +5,7 @@ import x from "../asset/x.png";
 import matter from "../asset/matter.png";
 import zig from "../asset/zig.png";
 import mint from "../asset/mint.png";
+import matters from "../asset/matters.png";
 export default function Herose() {
   return (
     <div className="pb-4">
@@ -37,17 +38,16 @@ export default function Herose() {
           </p>
         </div>{" "}
         <div className="flex pt-12 justify-center items-center gap-6">
-          <div className="pl-12 pt-14">
+          <div className="pl-12 ">
             <Image
               className=""
-              src={matter}
+              src={matters}
               alt="matter"
-              width={240}
-              height={240}
+              width={280}
+              height={280}
             />
-            <p className="pl-6">Nothing matters more than community</p>
           </div>
-          <Image className="" src={zig} alt="zig" width={240} height={240} />
+          <Image className="" src={zig} alt="zig" width={280} height={280} />
         </div>
       </div>
     </div>
