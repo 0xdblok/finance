@@ -5,12 +5,13 @@ import matter from "../asset/matter.png";
 import zig from "../asset/zig.png";
 import mint from "../asset/mint.png";
 import matters from "../asset/matters.png";
+import "animate.css";
 export default function Hero() {
   return (
     <div className="text-white pb-4">
       <div className=" flex justify-center">
         <Image
-          className="px-20"
+          className="px-20 animate__animated animate__fadeInUp"
           src={hero}
           alt="hero"
           width={450}
@@ -23,23 +24,25 @@ export default function Hero() {
           <Image className="" src={x} alt="hero" width={17} height={17} />
         </a>
       </div>
-      <p className=" text-white pt-6 text-center  text-2xl ">Snapp Finance</p>
+      <p className=" text-white pt-6 text-center  text-2xl animate__animated animate__slideInLeft ">
+        Snapp Finance
+      </p>
       <div className="text-white pt-10 flex  justify-center">
         <Image className="" src={mint} alt="hero" width={140} height={140} />
       </div>{" "}
-      <p className="text-center  text-[8px]  text-xs">
+      <p className="text-center  text-[8px] animate__animated animate__fadeInLeft  text-xs">
         Empowering ZK ecosystem by providing liquidity on starting up projects
       </p>
       <div className="flex  pt-10 justify-center">
         <Image
-          className=" "
+          className=" animate__animated animate__fadeInUp"
           src={matters}
           alt="comunity"
           width={180}
           height={180}
         />{" "}
       </div>{" "}
-      <div className="pt-2 flex justify-center">
+      <div className="pt-2 flex animate__animated animate__fadeInLeft justify-center">
         {" "}
         <Image src={zig} alt="comunity" width={180} height={180} />{" "}
       </div>

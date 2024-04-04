@@ -5,6 +5,7 @@ import matter from "../asset/matter.png";
 import zig from "../asset/zig.png";
 import mint from "../asset/mint.png";
 import matters from "../asset/matters.png";
+import "animate.css";
 export default function Heros() {
   return (
     <div className="flex  h-screen pt-10 xl:px-32 px-10  ">
@@ -13,7 +14,7 @@ export default function Heros() {
         <div className=" h-full items-end">
           {" "}
           <Image
-            className="h-[540px] w-[400px]"
+            className="animate__animated animate__fadeInUp h-[540px] w-[400px]"
             src={hero}
             alt="hero"
             width={420}
@@ -28,10 +29,12 @@ export default function Heros() {
         </div>
       </div>
       <div className="flex    flex-col">
-        <p className=" text-[74px] pt-6 ">Snapp Finance</p>
+        <p className=" text-[74px] pt-6 animate__animated   animate__slideInLeft">
+          Snapp Finance
+        </p>
         <div className="flex pt-12 justify-center items-center gap-20">
           <Image className="" src={mint} alt="hero" width={240} height={240} />
-          <p>
+          <p className="animate__animated animate__fadeInLeft ">
             Empowering ZK ecosystem by providing liquidity on starting up
             projects
           </p>
@@ -39,14 +42,14 @@ export default function Heros() {
         <div className="flex  justify-center pt-[82px] gap-6">
           <div className="pl-12  ">
             <Image
-              className=""
+              className="animate__animated animate__fadeInUp"
               src={matters}
               alt="matter"
               width={350}
               height={350}
             />
           </div>
-          <div>
+          <div className="animate__animated animate__fadeInLeft">
             <Image className="" src={zig} alt="zig" width={350} height={350} />
           </div>
         </div>
