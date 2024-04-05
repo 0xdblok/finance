@@ -10,7 +10,6 @@ export default function Home() {
       </div>
       <div className="hidden  md:block lg:hidden">
         <Herose />
-        efgsjsdil
       </div>
       <div className="hidden lg:block">
         <Heros />
