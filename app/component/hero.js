@@ -33,14 +33,19 @@ export default function Hero() {
       <p className="text-center  text-[8px] animate__animated animate__fadeInLeft  text-xs">
         Empowering ZK ecosystem by providing liquidity on starting up projects
       </p>
-      <div className="flex  pt-10 justify-center">
-        <Image
-          className=" animate__animated animate__fadeInUp"
-          src={matters}
-          alt="comunity"
-          width={180}
-          height={180}
-        />{" "}
+      <div className="  pt-10 ">
+        <div className="flex justify-center">
+          <Image
+            className=" animate__animated animate__fadeInUp"
+            src={matter}
+            alt="comunity"
+            width={180}
+            height={180}
+          />{" "}
+        </div>
+        <p className="text-center pt-1  px-72 text-[8px] animate__animated animate__fadeInLeft  text-xs">
+          Nothing matters more than community
+        </p>
       </div>{" "}
       <div className="pt-2 flex animate__animated animate__fadeInLeft justify-center">
         {" "}
