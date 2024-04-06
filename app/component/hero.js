@@ -43,7 +43,7 @@ export default function Hero() {
             height={180}
           />{" "}
         </div>
-        <p className="text-center pt-1  px-72 text-[8px] animate__animated animate__fadeInLeft  text-xs">
+        <p className="text-center pt-1   text-[8px] animate__animated animate__fadeInLeft  text-xs">
           Nothing matters more than community
         </p>
       </div>{" "}
