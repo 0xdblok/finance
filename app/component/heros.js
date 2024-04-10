@@ -33,7 +33,16 @@ export default function Heros() {
           Snapp Finance
         </p>
         <div className="flex pt-12 justify-center items-center gap-20">
-          <Image className="" src={mint} alt="hero" width={240} height={240} />
+          <a href="https://www.omnisea.org/vog1ZyX9rV8xIuFR9x5P">
+            {" "}
+            <Image
+              className=""
+              src={mint}
+              alt="hero"
+              width={240}
+              height={240}
+            />
+          </a>
           <p className="animate__animated animate__fadeInLeft ">
             Empowering ZK ecosystem by providing liquidity on starting up
             projects
