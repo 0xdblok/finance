@@ -1,6 +1,7 @@
 import Image from "next/image";
 import hero from "../asset/heroo.png";
 import x from "../asset/x.png";
+import discord from "../asset/discord.png";
 import matter from "../asset/matter.png";
 import zig from "../asset/zig.png";
 import mint from "../asset/mint.png";
@@ -18,10 +19,20 @@ export default function Hero() {
           height={450}
         />
       </div>
-      <div className=" flex justify-center">
+      <div className=" flex gap-1 justify-center">
         <a href="https://x.com/snappfinance/">
           {" "}
           <Image className="" src={x} alt="hero" width={17} height={17} />
+        </a>{" "}
+        <a href="https://discord.com/invite/S6WQpfPU">
+          {" "}
+          <Image
+            className="pt-[3px]"
+            src={discord}
+            alt="hero"
+            width={14}
+            height={14}
+          />
         </a>
       </div>
       <p className=" text-white pt-6 text-center  text-2xl animate__animated animate__slideInLeft ">

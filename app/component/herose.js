@@ -2,6 +2,7 @@ import React from "react";
 import Image from "next/image";
 import hero from "../asset/heroo.png";
 import x from "../asset/x.png";
+import discord from "../asset/discord.png";
 import matter from "../asset/matter.png";
 import zig from "../asset/zig.png";
 import mint from "../asset/mint.png";
@@ -22,10 +23,20 @@ export default function Herose() {
             height={450}
           />{" "}
         </div>
-        <div className="flex justify-center">
+        <div className="flex gap-1 justify-center">
           <a href="https://x.com/snappfinance/">
             {" "}
             <Image className="" src={x} alt="hero" width={34} height={34} />
+          </a>
+          <a href="https://discord.com/invite/S6WQpfPU">
+            {" "}
+            <Image
+              className="pt-2"
+              src={discord}
+              alt="hero"
+              width={26}
+              height={26}
+            />
           </a>
         </div>
       </div>
