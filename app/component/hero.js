@@ -39,7 +39,9 @@ export default function Hero() {
         Snapp Finance
       </p>
       <div className="text-white pt-10 flex  justify-center">
-        <Image className="" src={mint} alt="hero" width={140} height={140} />
+        <a href="https://www.omnisea.org/vog1ZyX9rV8xIuFR9x5P">
+          <Image className="" src={mint} alt="hero" width={140} height={140} />
+        </a>
       </div>{" "}
       <p className="text-center  text-[8px] animate__animated animate__fadeInLeft  text-xs">
         Empowering ZK ecosystem by providing liquidity on starting up projects
